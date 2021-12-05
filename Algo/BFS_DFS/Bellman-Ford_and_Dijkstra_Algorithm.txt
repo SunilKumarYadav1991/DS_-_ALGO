@@ -1,0 +1,13 @@
+BFS:
+- Finds shortes path between two nodes in tree/graph. But it does not allows weighted graph.
+
+
+
+
+Bellman-Ford Algorithm:
+Finds shortes path. The worst case for Belmond Ford algorithm is usually a time complexity of O(n^2). So it's not very efficient.
+
+Dijkstra Algorithm:
+- Finds shortes path. Dijkstra's algorithm, on the other hand, is a little bit faster than that and a little bit more efficient with the downside that it can't accommodate for negative weights between notes.
+
+

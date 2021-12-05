@@ -1,0 +1,26 @@
+Breadth First Search (BFS) and Depth First Search (DFS)
+-----------------------------------------------------------------------
+
+>> If you know a solution is not far from the root of the tree:
+-- well, we talked about this, we want to use breath research because it starts it starts searching the closest nodes to the parent first.
+
+>> If the tree is very deep and solutions are rare:
+--  well, this is a bit of a tougher question, but we would use a breath for search. And the reason we would do that over something like that research is that depth first search will take a really long time with this type of a tree because the tree is really deep. It's going to go one by one, going really, really down below. And because solutions are rare, it's most likely going to just repeat that step over and over and over.
+   
+   And as you'll see with depth, first search.We use a recursive functions and with deep research that can take a really, really long time, although with this one we also have some memory concerns with breath research. So your answers may vary, but this is what I would use.
+
+
+
+>> What if the tree is very wide, that is, there's a lot of nodes, it's not a binary tree, it just has a ton of notes underneath each parent.
+-- Again, this is a bit of a tougher one, but we want to use death for a search because a breadth  first search and I'm going to say BFS from now is well, it's going to need. Too much. Too much memory, the way breadth first search works is that it has to keep track of the nodes in the current level and something called a cue that we will see. So because of that, it might take up too much memory.
+
+>> if the solutions are frequent but located deep in the tree?
+-- Well, in that case we'd use depth for search, so hopefully we'll be able to find an answer quicker than breath for a search.
+
+>> determining whether a path exists between two notes:
+-- that is what depth first search is built for 
+
+>> about finding the shortest path that is for breadth, first search.
+
+//----------------------------------
+https://stackoverflow.com/questions/9844193/what-is-the-time-and-space-complexity-of-a-breadth-first-and-depth-first-tree-tr

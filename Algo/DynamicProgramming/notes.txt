@@ -1,0 +1,2 @@
+Dynamic programing is nothing but optimizing solution.
+With the help of memoization / caching one can optimize the solution.
